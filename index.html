@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Take Note</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+<div class="container">
+   <h1>Take Note</h1>
+   <span id="txt">Choose text colour </span>
+   <span class="counter">0/200</span>
+<div class="writing-section">
+    <textarea name="name" rows="4" cols="80" class="textarea" id="message" placeholder="type here" maxlength="200"></textarea>
+    <span class="colour_" id="green"></span>
+    <span class="colour_" id="blue"></span>
+    <span class="colour_" id="purple"></span>
+    <span class="colour_" id="orange"></span>
+    <button type="submit" name="button" class="submit_btn adD">Add Note</button>
+    <button type="submit" name="button" class="submit_btn delete">Delete Note</button>
+</div>
+<p>My Notes...</p>
+<div class="notes">
+
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,183 @@
+body{
+
+  margin: 0;
+  background-image: url("Wallpaper.jpg");
+}
+
+textarea{
+
+margin-top: 15vh;
+margin-left: 41%;
+resize: none;
+background-color: rgba(192,192,192,0.5);
+border: 0;
+border-radius: 5px;
+
+}
+
+.note{
+  position: relative;
+  width: 350px;
+  height: 60px;
+  border: 1px solid black;
+  margin-top: 30px;
+  font-family: 'Caveat', cursive;
+  background-color: #FEF9A7;
+  top: -240px;
+  overflow-wrap: break-word;
+  padding: 5px;
+
+}
+
+
+.notes{
+  position: relative;
+  display: grid;
+  top: -80px;
+  grid-template-columns: 1fr;
+  padding: 0px 0px 0px 72px;
+  font-size: 15px;
+}
+
+p{
+  position: relative;
+  top: -280px;
+  padding-left: 155px;
+  font-size: 40px;
+
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+
+.submit_btn{
+
+  width: 170px;
+  height: 50px;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+}
+
+.adD{
+  color: green;
+  margin-top: 50px;
+  margin-left:  750px;
+  background-color: rgba(255, 0, 0, 0.0);
+  box-shadow: inset 0 0 0 0 green;
+  border: 1px solid green;
+  transition: 0.1s;
+}
+
+.adD:hover{
+
+  color: white;
+  box-shadow: inset -170px 0px 0px 0px green;
+
+  transition: 0.2s;
+}
+
+.delete{
+
+  background-color: transparent;
+  color: red;
+  margin-left: 40px;
+  border: 1px solid red;
+  box-shadow: inset 0 0 0 0 #FF2626;
+  transition: 0.1s;
+}
+
+.delete:hover{
+
+  color: white;
+  box-shadow: inset 170px 0 0 0 #FF2626;
+  transition: 0.2s;
+
+}
+
+.colour_{
+
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 0;
+  margin-left: 32px;
+  display: inline-block;
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+.pressed{
+
+   border: 1px solid black;
+   transform: scale(1.3);
+   transition: 0.2s;
+}
+
+#green{
+  color: #019267;
+  background-color: #019267;
+}
+#blue{
+  color:#242F9B;
+  background-color: #242F9B;
+}
+#purple{
+  color:#A149FA;
+  background-color: #A149FA;
+}
+#orange{
+  color:#F6490D;
+  background-color: #F6490D;
+}
+
+.del{
+  position: absolute;
+  left: 345px;
+  bottom: 53px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+
+}
+
+.del:hover{
+
+
+  color: white;
+  background-color: red;
+
+}
+
+#txt{
+  position: relative;
+  top:  170px;
+  left: 840px;
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+  color: #AAAAAA;
+}
+
+h1{
+  display: inline;
+  position: relative;
+  top: 60px;
+  left: 630px;
+  font-size: 100px;
+  letter-spacing: 10px;
+  font-family: 'Dancing Script', cursive;
+  color: #EDEDED;
+
+}
+
+
+.counter{
+
+  position: relative;
+  top: 240px;
+  left: 545px;
+  width: 200px;
+  height: 10px;
+  color: black;
+}
