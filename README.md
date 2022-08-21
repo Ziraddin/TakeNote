@@ -1,1 +1,1 @@
-# takeNote
+# takeNote (not compatible for mobile)
